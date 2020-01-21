@@ -32,7 +32,7 @@ void loop() {
     } else {
       digitalWrite(11, LOW);//turning of the led connected to pin 11
     }
-  }else{
+  }else{//Blink Patterns once button is in off position
     digitalWrite(13, HIGH);
     delay(100);//delay between turning the led on and off creating a "blink"
     digitalWrite(13, LOW);
